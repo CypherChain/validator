@@ -112,7 +112,7 @@ function RunValidatorForm(props) {
                     >
                         Deposit {depositAmount} {depositCurrency}
                     </Button>
-                    <p className="text-label-10px-medium text-white-100 mt-1">*Promo code gets a 5% Cash Back (0.035 ETH) in 48 Hrs</p>
+                    <p className="text-label-10px-medium text-white-100 mt-1">*Promo code gets a 5% Cash Back (0.035 ETH) in 24 Hrs</p>
                     <p className="text-red-100 py-2 text-label-12px-regular">{formikValidator.errors.promo_code}</p>
                 </form>
             </div>
