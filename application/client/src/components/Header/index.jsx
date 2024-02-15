@@ -6,7 +6,7 @@ import ConnectWalletButton from '../ConnectWalletButton';
 function Header() {
     return (
         <header>
-             <div className="strip bg-purple-100 fixed w-full h-[48px] z-[100] flex justify-center items-center">
+            <div className="strip bg-purple-100 fixed w-full h-[48px] z-[100] flex justify-center items-center">
                 <div className="text-white-100 text-label-16px-regular">
                     Amazing News - Each Validator onboarding in TestNet to get $10000 worth of Cypher at the MainNet launch, over and above Block
                     rewards.
