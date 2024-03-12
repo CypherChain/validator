@@ -14,11 +14,13 @@ export default {
           300: "#363636",
           400: "#1A1A1A",
           500: "#242424",
-          600: "#D1D1D1"
+          600: "#D1D1D1",
+          700: "#1A1F37"
         },
         white: {
           100: "#ffffff",
-          200: "#FBFBFB"
+          200: "#FBFBFB",
+          300: "#E0E1E2"
         },
         gray: {
           100: "#D9DDF5",
@@ -26,14 +28,17 @@ export default {
           300: "#EBEBEB",
           400: "#888",
           500: "#E4E4E4",
-          600: "#D9D9D9"
+          600: "#D9D9D9",
+          700: "#ABA5A5",
+          800: "#6F6D6D"
         },
         purple: {
           100: "#AD78EE",
           200: "#F1E5FF",
           300: "#A66EE9",
           400: "#E0AAFF",
-          500: "#F1E7F7"
+          500: "#F1E7F7",
+          600: "#240046"
         },
         red: {
           100: "#FF3535"
@@ -41,6 +46,11 @@ export default {
         green: {
           100: "#25B09B",
           200: "#32A63D"
+        },
+        blue: {
+          100: "#1DA1F2",
+          200: "#3E19BD",
+          300: "#0075FF"
         }
       },
       boxShadow: {
@@ -82,8 +92,10 @@ export default {
       "label-18px-regular": ["18px", { lineHeight: "26px", fontWeight: "400" }],
       "label-16px-medium": ["16px", { lineHeight: "24px", fontWeight: "500" }],
       "label-16px-regular": ["16px", { lineHeight: "24px", fontWeight: "400" }],
+      "label-16px-semibold": ["16px", { lineHeight: "24px", fontWeight: "600" }],
       "label-14px-regular": ["14px", { lineHeight: "normal", fontWeight: "400" }],
       "label-14px-medium": ["14px", { lineHeight: "normal", fontWeight: "500" }],
+      "label-14px-bold": ["14px", { lineHeight: "normal", fontWeight: "600" }],
       "label-12px-medium": ["12px", { lineHeight: "normal", fontWeight: "500" }],
       "label-12px-regular": ["12px", { lineHeight: "normal", fontWeight: "bold", letterSpacing: "1.2px" }],
       "label-10px-medium": ["10px", { lineHeight: "normal", fontWeight: "500" }],
