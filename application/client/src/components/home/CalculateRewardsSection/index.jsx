@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import CalculatorCard from './CalculatorCard';
 import {
     BLOCK_REWARD_PER_MONTH_PER_VALIDATOR,
@@ -15,9 +15,13 @@ import { getSlot } from '../../../web3-module/library/validator.ethers';
 import { getPhaseBySlot } from '../../../utils/helpers';
 
 function CalculateRewardsSection({ runValidatorRef }) {
-    const userPhasesArray = Object.keys(phaseConfig).map((x) => {
-        return { label: `Phase ${x}`, value: x };
-    });
+    const userPhasesArray = useMemo(
+        () =>
+            Object.keys(phaseConfig).map((x) => {
+                return { label: `Phase ${x}`, value: x };
+            }),
+        []
+    );
     const [userPhase, setUserPhase] = useState(userPhasesArray[0]);
     const [ethAmount, setEthAmount] = useState(0);
     const [nodesCount, setNodesCount] = useState(1);
