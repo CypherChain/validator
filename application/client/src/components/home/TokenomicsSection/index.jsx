@@ -13,10 +13,10 @@ function TokenomicsSection() {
                             </div>
                             <div className="text-center my-5">
                                 <div className="text-white-100 text-label-18px-regular mb-3">
-                                    Pre-Sale Price: <span className="">$1</span>
+                                    Pre-Sale Price: <span className="">$0.3</span>
                                 </div>
                                 <div className="text-white-100 text-label-18px-regular">
-                                    Listing Price: <span className="">$5</span>
+                                    Listing Price: <span className="">$1</span>
                                 </div>
                             </div>
                         </div>
