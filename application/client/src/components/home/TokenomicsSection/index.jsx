@@ -16,7 +16,7 @@ function TokenomicsSection() {
                                     Pre-Sale Price: <span className="">$0.3</span>
                                 </div>
                                 <div className="text-white-100 text-label-18px-regular">
-                                    Listing Price: <span className="">$1</span>
+                                    Listing Price: <span className="">$2.5</span>
                                 </div>
                             </div>
                         </div>
